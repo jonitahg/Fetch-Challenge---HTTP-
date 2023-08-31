@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Fetch Challenge</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<main>
+				<h1>Fetch Challenge</h1>
+				<div class="form-group">
+					<input class="form-control" type="text" name="nombre" id="nombre" placeholder="Nombre" />
+					<input class="form-control" type="number" name="edad" id="edad" placeholder="Edad" />
+					<input class="form-control" type="text" name="id" id="id" placeholder="ID" />
+				</div>
+
+				<div class="buttons">
+					<button id="btnPost">Añadir</button>
+					<button id="btnPut">Actualizar</button>
+					<button id="btnDelete">Borrar</button>
+				</div>
+
+				<div class="table">
+					<table>
+						<th>ID</th>
+						<th>Nombre</th>
+						<th>Edad</th>
+						<tbody id="tabla"></tbody>
+					</table>
+				</div>
+			</main>
+		</div>
+		<script src="./js/scripts.js"></script>
+	</body>
+</html>

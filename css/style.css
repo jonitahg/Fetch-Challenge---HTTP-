@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	background-color: rgb(32, 32, 30);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+main {
+	position: relative;
+	background-color: skyblue;
+	border-radius: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 80px;
+	gap: 35px;
+}
+
+main h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #202020;
+}
+
+.form-group {
+	width: 60%;
+	gap: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group input {
+	color: #202020;
+	padding: 12px 15px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0px 0px 5px 0px rgb(146, 146, 146);
+}
+
+.buttons button {
+	padding: 10px 20px;
+	border-radius: 20px;
+	border: none;
+	background-color: rgb(146, 118, 224);
+	color: rgb(241, 241, 241);
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.buttons button:hover {
+	background-color: rgba(96, 73, 158, 0.87);
+	color: rgb(184, 228, 245);
+}
+
+.table {
+	box-shadow: 0px 0px 5px 0px #a5a5a5;
+	height: 325px;
+	overflow: auto;
+	color: #202020;
+	text-align: center;
+	background-color: rgb(147, 135, 255);
+	border-radius: 120px;
+	padding: 40px;
+}
+
+.table::-webkit-scrollbar {
+	display: none; /* Oculta la barra de desplazamiento en navegadores WebKit (Chrome, Safari, etc.) */
+}
+
+.table table th {
+	font-size: 18px;
+	color: rgb(233, 233, 233);
+}
+td {
+	padding: 15px 60px;
+	border-bottom: 1px solid #202020;
+}
